@@ -99,7 +99,6 @@ class TextRank:
 
 class SummarizeResource(Resource):
     def get(self):
-
         return {"message": "hi"}
 
     def post(self):
